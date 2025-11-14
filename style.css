@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f2f4f7;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-content {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-family: "Nunito Sans", sans-serif;
+  color: #0866ff;
+  font-size: 3rem;
+}
+
+.tag-line {
+  font-size: 1.3rem;
+}
+
+form {
+  background-color: #ffffff;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fb-input {
+  width: 310px;
+  border-radius: 5px;
+  border: 1px solid #dddfe2;
+  outline: none;
+  padding: 12px 16px;
+  transition: all 0.2s ease;
+}
+
+.fb-input::placeholder {
+  color: #9d949c;
+  font-size: 1rem;
+}
+
+.fb-input:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+}
+
+.login-btn {
+  background-color: #0866ff;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+a {
+  font-size: 0.8rem;
+  color: #1877f2;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin-top: 10px;
+  border: none;
+  height: 1px;
+  background-color: #dddfe2;
+}
+
+.btn2 {
+  padding: 12px;
+  width: 180px;
+  background-color: #42b72a;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 63px;
+}
+
+.bottom-text {
+  margin-top: 30px;
+  font-size: 0.8rem;
+}
