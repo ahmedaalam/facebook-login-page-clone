@@ -1,8 +1,7 @@
-# 📘 Facebook Login Page Clone
+# Facebook Login Page Clone
 
 ![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge\&logo=css3\&logoColor=white)
-![Responsive](https://img.shields.io/badge/Design-Responsive-green?style=for-the-badge)
 
 A frontend replica of the Facebook login page built using HTML and CSS as part of a web development assignment.
 
